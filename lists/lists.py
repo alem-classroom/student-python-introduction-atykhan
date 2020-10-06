@@ -5,7 +5,7 @@ def add_elem_to_list(list, elem):
     # add elem to list and return the list
     list.append(elem)
     return(list)
-def delete_elem_from_list(list, index = -1):
+def delete_elem_from_list(list, index):
     # delete element from list, such that its index is index
     return(list.pop(index))
 def count_elements_in_list(list, x):
