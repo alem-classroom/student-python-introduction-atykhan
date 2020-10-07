@@ -18,6 +18,9 @@ def sort_list(list):
 def reverse(list):
     # return reversed list
 	return(list.reverse())
+<<<<<<< HEAD
 #lst = [[1, -3, 0, 342], ["hello", "world", [213]],["dsd", "ass", [123]], [[5],[4],"d"]]
 ##a = 2
 #print(delete_elem_from_list(lst,a))
+=======
+>>>>>>> 244fa2ceba7334114c0d33aab858e55824285a42
