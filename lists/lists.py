@@ -21,3 +21,4 @@ def reverse(list):
 #a = 2
 #print(delete_elem_from_list(lst,))
 #list is not working asd
+#asdasd
