@@ -28,5 +28,8 @@ def remove_elem_if_exists(set, elem):
     	return(set)
 def delete_first_element(set):
     # delete first elemenent of set
- 	return(set.pop())   
- #setss
+	return(set.pop())
+#setss
+# alph = [1, 2, "str", [1, 2, 3, 6], {}, (1, -1)]
+# alph1 = [1, 2, "str", [1, 2, 3, 6], {}, (1, -12)]
+# print(are_sets_equal(alph,alph1))
