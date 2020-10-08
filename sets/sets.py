@@ -23,7 +23,8 @@ def add_elem_to_set(set, elem):
 def remove_elem_if_exists(set, elem):
     # remove elem from set if it exists, and return the set
     if elem in set:
-    	return(set.remove(elem))
+    	set.remove(elem)
+    	return(set)
     else:
     	return(set)
 def delete_first_element(set):
