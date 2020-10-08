@@ -7,8 +7,11 @@ def add_elem_to_list(list, elem):
     return(list)
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
-    list.pop(index)
-    return(list)
+    if index < len(list)
+        list.pop(index)
+        return(list)
+    else:
+        return False
 def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
     return(list.count(x))
