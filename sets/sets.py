@@ -29,7 +29,7 @@ def remove_elem_if_exists(set, elem):
     	return(set)
 def delete_first_element(set):
     # delete first elemenent of set
-	return(set.pop())
+	return(set.pop(0))
 #setss
 #alph = {1, 2, "str", 5,6,"asd"}
 # alph1 = [1, 2, "str", [1, 2, 3, 6], {}, (1, -12)]
