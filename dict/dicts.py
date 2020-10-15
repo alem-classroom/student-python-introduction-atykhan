@@ -12,5 +12,4 @@ def get_dict_value_by_key(dict, key):
     return(dict.get(key))
 def delete_dict_element_by_key(dict, key):
     # delete and element from disadct, lpllpllsuch that its key is the argument key
-    dict.pop(key)
-    return(dict)
+    return(dict.pop(key))
