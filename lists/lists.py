@@ -13,6 +13,8 @@ def delete_elem_from_list(list, index = -1):
         return(list.pop(40))
     elif index == 35:
         return(list.pop(35))
+    elif index == 39:
+        return(list.pop(39))
     else:
         return(list.pop(index))
 def count_elements_in_list(list, x):
