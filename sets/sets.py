@@ -29,4 +29,8 @@ def remove_elem_if_exists(set, elem):
     	return(set)
 def delete_first_element(set):
     # delete first elemenent of set
-    return(set.pop())
+    set.pop()
+    return(set)
+
+# alph = {1, 2, "str", (1, -1)}
+# print(delete_first_element(alph))
