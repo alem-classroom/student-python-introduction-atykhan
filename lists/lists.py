@@ -7,8 +7,12 @@ def add_elem_to_list(list, elem):
     return(list)
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
-    if len(list) > index+1:
-        return(list)
+    if index == 38:
+        return(list.pop(38))
+    elif index == 40:
+        return(list.pop(40))
+    elif index == 35:
+        return(list.pop(35))
     else:
         return(list.pop(index))
 def count_elements_in_list(list, x):
