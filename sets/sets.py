@@ -33,4 +33,4 @@ def delete_first_element(set):
 #setss
 #alph = {1, 2, "str", 5,6,"asd"}
 # alph1 = [1, 2, "str", [1, 2, 3, 6], {}, (1, -12)]
-#print(delete_first_element(alph))
+#print(delete_first_element(alph))ad
