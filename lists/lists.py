@@ -29,5 +29,5 @@ def reverse(list):
 #lst = [[1, -3, 0, 342], ["hello", "world", [213]],["dsd", "ass", [123]], [[5],[4],"d"]]
 #a = 2
 #print(delete_elem_from_list(lst,)sd)lpl
-#list is not working asd
+#list is not working lplplpasd
 #asdasdjkjkjkjkas
