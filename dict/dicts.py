@@ -11,7 +11,7 @@ def get_dict_value_by_key(dict, key):
     # return values of dict that is stored in key
     return(dict.get(key))
 def delete_dict_element_by_key(dict, key):
-    # delete and element from disadct,asd lpllpllsuch that its key is the argument key
+    # delete and element from dict lpllpllsuch that its key is the argument key
     if key not in dict.keys():
         return()
     else:
