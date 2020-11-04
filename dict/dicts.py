@@ -13,6 +13,11 @@ def get_dict_value_by_key(dict, key):
 def delete_dict_element_by_key(dict, key):
     # delete and element from dict lpllpllsuch that its key is the argument key
     if key not in dict.keys():
-        return()
+        return(dict)
     else:
-        return(dict.pop(key))
+        dict.pop(key)
+        return(dict)
+d = {"a": [1, 2, 3], "b": 2, "c": 3}
+key_to_remove = "c"
+
+print(delete_dict_element_by_key(d, key_to_remove))
