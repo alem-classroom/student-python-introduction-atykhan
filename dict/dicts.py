@@ -17,7 +17,7 @@ def delete_dict_element_by_key(dict, key):
     else:
         dict.pop(key)
         return(dict)
-d = {"a": [1, 2, 3], "b": 2, "c": 3}
-key_to_remove = "c"
+# d = {"a": [1, 2, 3], "b": 2, "c": 3}
+# key_to_remove = "d"
 
-print(delete_dict_element_by_key(d, key_to_remove))
+# print(delete_dict_element_by_key(d, key_to_remove))
